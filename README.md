@@ -1,11 +1,9 @@
 # sem-2-practical-
 1) Write a program to compute the sum of the first n terms of the following series:
 □ =1− 1/2^2+1/3^3−1/4^4+1/5^5− . . ..The number of terms n is to be taken from the user through the command line. If the command line argument is not found then prompt the user to enter the value of n.
-
-
 #include <iostream>
-#include <cstdlib>
 #include <cmath>
+#include <cstdlib>
 
 using namespace std;
 
@@ -20,19 +18,20 @@ double computeSeries(int n) {
     }
     return total;
 }
+
 int main(int argc, char* argv[]) {
     int n;
     if (argc > 1) {
         n = atoi(argv[1]);
         if (n <= 0) {
-            cout << "only positive number." << endl;
+            cout << "Invalid input. Please enter a positive integer." << endl;
             return 1;
         }
     } else {
-        cout << "Enter the number in terms (n): ";
+        cout << "Enter the number of terms (n): ";
         cin >> n;
         if (n <= 0) {
-            cout << "only positive number." << endl;
+            cout << "Invalid input. Please enter a positive integer." << endl;
             return 1;
         }
     }
@@ -41,6 +40,7 @@ int main(int argc, char* argv[]) {
     cout << "Sum of the series for " << n << " terms: " << result << endl;
     return 0;
 }
+
 ![image](https://github.com/user-attachments/assets/cd1a7543-63b3-4464-9497-45cc8ac39736)
 
 
