@@ -42,6 +42,8 @@ int main(int argc, char* argv[]) {
     cout << "Sum of the series for " << n << " terms: " << result << endl;
     return 0;
 }
+![Screenshot (29)](https://github.com/user-attachments/assets/2c427a0e-91c3-44cc-9150-1f5613fab70d)
+
 
 
 
