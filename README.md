@@ -1,6 +1,8 @@
 # sem-2-practical-
 1) Write a program to compute the sum of the first n terms of the following series:
 □ =1− 1/2^2+1/3^3−1/4^4+1/5^5− . . ..The number of terms n is to be taken from the user through the command line. If the command line argument is not found then prompt the user to enter the value of n.
+
+
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
@@ -42,7 +44,7 @@ int main(int argc, char* argv[]) {
 }
 
 
-![Screenshot (27)](https://github.com/user-attachments/assets/0acfcbf6-aef7-47da-ac5f-3cc3f1b81948)
+
 
 
 
