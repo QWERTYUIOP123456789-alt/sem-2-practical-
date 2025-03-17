@@ -44,6 +44,53 @@ int main(int argc, char* argv[]) {
 }
 ![Screenshot (29)](https://github.com/user-attachments/assets/2c427a0e-91c3-44cc-9150-1f5613fab70d)
 
+question 2
+
+==Write a program to remove the duplicates from an array!
+
+#include <iostream>
+#include <vector>
+#include <set>
+
+using namespace std;
+
+void removeDuplicates(vector<int>& arr) {
+    set<int> seen;
+    vector<int> uniqueArr;
+    
+    for (int num : arr) {
+        if (seen.find(num) == seen.end()) {
+            uniqueArr.push_back(num);
+            seen.insert(num);
+        }
+    }
+    
+    arr = uniqueArr;
+}
+
+int main() {
+    int n;
+    cout << "Enter the number of elements in the array: ";
+    cin >> n;
+    
+    vector<int> arr(n);
+    cout << "Enter the elements of the array: ";
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    
+    removeDuplicates(arr);
+    
+    cout << "Array after removing duplicates: ";
+    for (int num : arr) {
+        cout << num << " ";
+    }
+    cout << endl;
+    
+    return 0;
+}
+
+
 
 
 
