@@ -12,7 +12,6 @@
 using namespace std;
 
 double computeSeries(int n) {
-
     double total = 0.0;
     for (int i = 1; i <= n; ++i) {
         double term = 1.0 / pow(i, i);
@@ -28,14 +27,14 @@ int main(int argc, char* argv[]) {
     if (argc > 1) {
         n = atoi(argv[1]);
         if (n <= 0) {
-            cout << "Invalid input. Please enter a positive integer." << endl;
+            cout << "only positive number." << endl;
             return 1;
         }
     } else {
-        cout << "Enter the number of terms (n): ";
+        cout << "Enter the number in terms (n): ";
         cin >> n;
         if (n <= 0) {
-            cout << "Invalid input. Please enter a positive integer." << endl;
+            cout << "only positive number." << endl;
             return 1;
         }
     }
