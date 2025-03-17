@@ -42,7 +42,10 @@ int main(int argc, char* argv[]) {
 }
 
 
- ![photo_6251063258966509287_y](https://github.com/user-attachments/assets/d9c12811-1837-4fc6-8400-6e303b1aa200)
+![Screenshot (27)](https://github.com/user-attachments/assets/0acfcbf6-aef7-47da-ac5f-3cc3f1b81948)
+
+
+
 
 
 
