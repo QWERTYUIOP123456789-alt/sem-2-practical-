@@ -219,10 +219,12 @@
     return 0;
     }
 
-    ![image](https://github.com/user-attachments/assets/9c762762-0835-4103-a9e9-adcb194c10c5)
+    
 
 
 
+
+![image](https://github.com/user-attachments/assets/2d34d155-4675-4349-81c5-4823e81fef44)
 
   # Program 5
 
